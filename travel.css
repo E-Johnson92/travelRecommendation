@@ -98,3 +98,12 @@ p, h1{
     filter: drop-shadow(2px 2px 1px rgba(0, 0,0, .4)); 
     
 }
+#team-title{
+    font-size: 56px; 
+    text-wrap: balance; 
+    ; 
+    height: 150px;
+    width: 150px; 
+    margin-top: 0; 
+    text-align: center; 
+}
