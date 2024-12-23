@@ -35,7 +35,8 @@ body{
     border: none;
     font-size: 17px;
   }
-button{
+  #searchBtn, 
+  #resetBtn {
     border: none; 
      
     background-color: white;
@@ -62,7 +63,7 @@ input:active{
     float: left; 
 }
 .main-body{
-    
+    color: white; 
     width: 89%; 
     height: 100%; 
     padding-top: 10%; 
@@ -72,4 +73,8 @@ input:active{
 .info{
     display: flex; 
     justify-content: left;
+}
+#ourTeam{
+    display: flex; 
+    justify-content: space-around;
 }
