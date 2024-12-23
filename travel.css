@@ -1,17 +1,18 @@
 body{
     margin: 0; 
+    background-image: url("https://www.bsr.org/images/heroes/bsr-travel-hero..jpg");
 }
 
 #toolbar{
     overflow: hidden; 
-    background-color: rgb(0, 122, 96); 
+    background-color: rgba(0, 122, 96, 0.5); 
     border: 1px solid black ;  
     padding-left: 30%;  
 }
 
 #toolbar a {
     float: left; 
-    border: 1px solid black;  
+      
     display: inline; 
     text-align: center;
     color: black;  
@@ -56,15 +57,19 @@ input:active{
     
     width: 10%; 
     height: 100%; 
-    border: 1px solid black; 
+    padding-top: 10%;  
     position: relative; 
     float: left; 
 }
 .main-body{
-    display: inline-block; 
+    
     width: 89%; 
     height: 100%; 
-    border: 1px solid red; 
+    padding-top: 10%; 
     position: relative;
     padding-left: 50px; 
+}
+.info{
+    display: flex; 
+    justify-content: left;
 }
