@@ -74,7 +74,27 @@ input:active{
     display: flex; 
     justify-content: left;
 }
+.more-info{
+    border: none;
+    color: white; 
+    margin: auto;  
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: rgba(0,39, 140,.9);
+}
 #ourTeam{
     display: flex; 
     justify-content: space-around;
+}
+.profile{
+    width: 150px; 
+    height: 150px; 
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: rgba(4, 255, 213, 0.4); 
+    text-align: center;  
+}
+p, h1{
+    filter: drop-shadow(2px 2px 1px rgba(0, 0,0, .4)); 
+    
 }
