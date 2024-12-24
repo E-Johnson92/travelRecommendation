@@ -69,6 +69,7 @@ input:active{
     padding-top: 10%; 
     position: relative;
     padding-left: 50px; 
+    margin-right: 10rem; 
 }
 .info{
     display: flex; 
@@ -106,4 +107,30 @@ p, h1{
     width: 150px; 
     margin-top: 0; 
     text-align: center; 
+}
+#submit-info{
+    border: 1px solid black; 
+    height: 17rem; 
+    width: 15rem; 
+    margin-top: 10%; 
+    align-self: auto; 
+    padding: 2rem; 
+    border-radius: 2px; 
+    background-color: rgba(4, 255, 213, 0.4);
+}
+#info{
+    display: grid; 
+    overflow: auto; 
+}
+#submit{
+    margin: auto;
+    margin-top: 2%; 
+    padding: 5% 35% 5% 35%; 
+    background-color: rgba(0, 122, 122,.9);
+    border-radius: 5px; 
+    border: none;     
+}
+.contact-input{
+    background-color: rgba(0, 45, 45, 0.6);
+    border: 1px solid rgba(1, 255, 255, 0.8)
 }
