@@ -134,3 +134,10 @@ p, h1{
     background-color: rgba(0, 45, 45, 0.6);
     border: 1px solid rgba(1, 255, 255, 0.8)
 }
+#results{
+    border: 1px red solid; 
+    width: 100%; 
+    padding-left: 50%;
+    padding-top: 10%; 
+    position: absolute; 
+}
